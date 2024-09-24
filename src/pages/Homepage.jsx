@@ -1,8 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Banner from '../components/Banner'
 
 export default function Homepage() {
   return (
-    <Navbar></Navbar>
+    <><Navbar></Navbar><Banner></Banner></>
 )
 }
