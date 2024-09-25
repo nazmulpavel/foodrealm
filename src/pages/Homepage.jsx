@@ -10,7 +10,7 @@ export default function Homepage() {
     <>
     {/* <Banner></Banner> */}
     <Booklist></Booklist>
-    <BookDetails></BookDetails>
+    {/* <BookDetails></BookDetails> */}
     {/* <Footer></Footer> */}
     </>
 )

@@ -1,6 +1,20 @@
 import React from 'react'
 
-export default function BookDetails() {
+import { useLoaderData } from "react-router-dom";
+import { useParams } from "react-router-dom";
+
+
+
+
+export default function BookDetails({books}) {
+    const book = useLoaderData();
+    const params = useParams();
+    // const { bookId, bookName, author, image, review,totalPages,rating,category} = book;
+    // const navigate = useNavigate();
+    console.log("-----yyyy",params.bookId);
+    // console.log("-----wwww",user);
+
+
     return (
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, eum!</p>
