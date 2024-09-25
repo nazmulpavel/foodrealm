@@ -6,6 +6,10 @@ import Footer from '../components/shared/Footer'
 
 export default function Homepage() {
   return (
-    <><Navbar></Navbar><Banner></Banner><Booklist></Booklist><Footer></Footer></>
+    <>
+    {/* <Banner></Banner> */}
+    <Booklist></Booklist>
+    {/* <Footer></Footer> */}
+    </>
 )
 }

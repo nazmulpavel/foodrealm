@@ -1,6 +1,11 @@
 import React from 'react'
 
 export default function Card({ book }) {
+    
+    const handleClick = (index) => {
+        console.log("handle click called");
+        // navigate('/bookdetails', { state: { book: books[index] } });
+      };
     return (
         <div>
             <div className="card bg-base-100 w-96 shadow-xl">
@@ -24,7 +29,7 @@ export default function Card({ book }) {
 
                     </div>
                     <div className="flex items-center justify-center lg:mt-10 sm:mt-5">
-                        <button className="btn btn-primary w-1/2 items-center justify-center">View details</button>
+                        <button onClick={handleClick} className="btn btn-primary w-1/2 items-center justify-center">View details</button>
                     </div>
 
                 </div>
