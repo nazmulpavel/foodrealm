@@ -2,10 +2,11 @@ import React from 'react'
 
 export default function Banner() {
     return (
-        <div >
-            <div className="hero bg-base-200 w-full ">
+        <div  className= "">
+            <div className="hero bg-base-200 ">
                 <div className="w-full flex-col lg:flex-row-reverse">
-                    <div className="carousel w-full">
+                    <div className="carousel w-full h-96">
+                        {/* Slide No 1 */}
                         <div id="slide1" className="carousel-item relative w-full items-center justify-center">
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                 <a href="#slide4" className="btn btn-circle">❮</a>
@@ -24,6 +25,7 @@ export default function Banner() {
                                 src={'/src/assets/banner1.avif'}
                                 className="carousel-item w-1/2 " />
                         </div>
+                        {/* Slide no 2 */}
                         <div id="slide2" className="carousel-item relative w-full">
                             <img
                                 src={'/src/assets/banner2.avif'}
@@ -33,6 +35,8 @@ export default function Banner() {
                                 <a href="#slide3" className="btn btn-circle">❯</a>
                             </div>
                         </div>
+                       {/* Slide no 3 */}
+
                         <div id="slide3" className="carousel-item relative w-full">
                             <img
                                 src={'/src/assets/banner3.avif'}
@@ -42,6 +46,8 @@ export default function Banner() {
                                 <a href="#slide4" className="btn btn-circle">❯</a>
                             </div>
                         </div>
+                       {/* Slide no 4 */}
+
                         <div id="slide4" className="carousel-item relative w-full">
                             <img
                                 src={'/src/assets/banner4.avif'}

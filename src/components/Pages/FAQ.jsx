@@ -3,8 +3,9 @@ import React from 'react'
 export default function () {
   return (
     <div>
+      <hr></hr>
       <h3 className="p-4 text-3xl bold text-center">Frequenty Asked Questions</h3>
-
+      <hr></hr>
       <div className="collapse collapse-plus ">
         <input type="radio" name="my-accordion-3" defaultChecked />
         <div className="collapse-title text-xl font-medium">What is React.js and Explain the concept of "components" in React in brief?</div>

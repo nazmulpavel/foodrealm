@@ -10,7 +10,7 @@ export default function Booklist() {
 console.log("11111111", book)
     
   return (
-    <div >
+    <div className= "pb-5" >
         <hr></hr>
         <h3 className="text-3xl text-center p-6">Book List</h3>
         <hr></hr>

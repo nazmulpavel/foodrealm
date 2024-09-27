@@ -9,10 +9,9 @@ export default function Homepage() {
   return (
     <>
     <Banner></Banner>
-
     <Booklist></Booklist>
-    {/* <BookDetails></BookDetails> */}
-    {/* <Footer></Footer> */}
+    <hr></hr>
+
     </>
 )
 }
