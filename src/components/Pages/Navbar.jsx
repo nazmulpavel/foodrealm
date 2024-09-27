@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden align-middle">
-              <img src={'/src/assets/menu.png'} className={"w-12 h-12 "} alt="logo" />
+              <img src={"menu.png"} className={"w-12 h-12 "} alt="logo" />
             </div>
             <ul
               tabIndex={0}
@@ -19,7 +19,7 @@ export default function Navbar() {
               <li className="hover:text-orange-500 cursor-pointer"><Link to="/faq"><a>FAQ</a></Link></li>
             </ul>
           </div>
-          <img src={'/src/assets/logo1.png'} className={"lg:ml-10 sm:ml-5 w-10 h-10 align-middle rounded-3xl"} alt="logo" />
+          <img src={"logo1.png"} className={"lg:ml-10 sm:ml-5 w-10 h-10 align-middle rounded-3xl"} alt="logo" />
 
         </div>
         <div className="navbar-center hidden lg:flex">

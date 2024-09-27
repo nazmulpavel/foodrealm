@@ -22,14 +22,14 @@ export default function Banner() {
                                 </div>
                             </div>
                             <img
-                                src={'/src/assets/banner1.avif'}
-                                className="carousel-item w-1/2 " />
+                                src={'banner1.avif'}
+                                className="carousel-item w-1/2 h-full " />
                         </div>
                         {/* Slide no 2 */}
                         <div id="slide2" className="carousel-item relative w-full">
                             <img
-                                src={'/src/assets/banner2.avif'}
-                                className="w-full" />
+                                src={'banner2.avif'}
+                                className="w-full h-full" />
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                 <a href="#slide1" className="btn btn-circle">❮</a>
                                 <a href="#slide3" className="btn btn-circle">❯</a>
@@ -39,8 +39,8 @@ export default function Banner() {
 
                         <div id="slide3" className="carousel-item relative w-full">
                             <img
-                                src={'/src/assets/banner3.avif'}
-                                className="w-full" />
+                                src={'banner3.avif'}
+                                className="w-full h-full" />
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                 <a href="#slide2" className="btn btn-circle">❮</a>
                                 <a href="#slide4" className="btn btn-circle">❯</a>
@@ -50,8 +50,8 @@ export default function Banner() {
 
                         <div id="slide4" className="carousel-item relative w-full">
                             <img
-                                src={'/src/assets/banner4.avif'}
-                                className="w-full" />
+                                src={'banner4.avif'}
+                                className="w-full h-full" />
                             <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                                 <a href="#slide3" className="btn btn-circle">❮</a>
                                 <a href="#slide1" className="btn btn-circle">❯</a>
