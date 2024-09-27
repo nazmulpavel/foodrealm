@@ -1,8 +1,16 @@
-# React + Vite
+Book Realm - README
+    Book Realm is a book catalog website built with React.js, styled using Tailwind CSS and DaisyUI, powered by a local JSON API, and featuring React Router for navigation. The project is deployed on Netlify, with the code hosted on GitHub.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
+    Live Demo on Netlify: https://book-realm-tot.netlify.app/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+    Browse and view detailed information about books.
+    Fully responsive design.
+    Seamless navigation with React Router.
+    Custom theming using DaisyUI.
+Tech Stack
+    Frontend: React.js, React Router
+    Styling: Tailwind CSS, DaisyUI
+    API: Local JSON Server
+    Deployment: Netlify
