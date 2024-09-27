@@ -13,7 +13,7 @@ export default function Footer() {
                 <nav>
                     <div className="grid grid-flow-col gap-4">
                         <a>
-                            <img src={'/src/assets/logo.png'} className="w-6 h-6 rounded"  alt="" />
+                            <img src={'logo.png'} className="w-6 h-6 rounded"  alt="" />
                         </a>
                         <a>
                             <svg
