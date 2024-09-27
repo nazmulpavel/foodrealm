@@ -13,7 +13,7 @@ export default function BookDetails() {
 
     console.log("-----book", item);
 
-    console.log("-----xxxx", item.bookName);
+    console.log("-----xxxx", item?.bookName);
 
 
     const handleClick = (index) => {
