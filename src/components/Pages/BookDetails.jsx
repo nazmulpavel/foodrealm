@@ -18,10 +18,10 @@ export default function BookDetails() {
 
     const handleClick = (index) => {
 
-        let text1 = item.bookName   +" "+  item.author;
-        let text2 = (index == 1)? " is added to wish to read": " is added to your cart" ;
+        let text1 = item.bookName + " " + item.author;
+        let text2 = (index == 1) ? " is added to wish to read" : " is added to your cart";
         let result = text1.concat(text2);
-     
+
         alert(result);
     }
 

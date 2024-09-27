@@ -11,13 +11,14 @@ console.log("11111111", book)
     
   return (
     <div >
-        <h3 className="text-3xl text-center pt-10">Book list</h3>
-
-        <div className= "grid grid-cols-4 gap-4">
+        <hr></hr>
+        <h3 className="text-3xl text-center p-6">Book List</h3>
+        <hr></hr>
+        <div className= "container mx-auto grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center">
         {
             book.map((book)=>{
                 return(
-                    <div className= "pt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" key = {book.bookId}>
+                    <div className= "pt-4 " key = {book.bookId}>
                         <Card book={book}></Card>
                     {/* <h3>book name:{book.bookName} </h3> */}
                     </div>
