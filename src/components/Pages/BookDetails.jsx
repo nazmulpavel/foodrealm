@@ -1,18 +1,26 @@
 import React from 'react'
 
-import { useLoaderData } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import book from '../data.json'
 
 
 
 
-export default function BookDetails({books}) {
-    const book = useLoaderData();
-    const params = useParams();
-    // const { bookId, bookName, author, image, review,totalPages,rating,category} = book;
-    // const navigate = useNavigate();
-    console.log("-----yyyy",params.bookId);
-    // console.log("-----wwww",user);
+export default function BookDetails() {
+    const location = useLocation();
+  
+    const { item } = location.state || {};
+
+
+
+    // const params = useParams();
+    console.log("-----yyyy",item);
+
+
+
+// console.log("11111122222211",item)
+
+    // console.log("-----xxxx",params.bookId);
 
 
     return (

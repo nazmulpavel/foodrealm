@@ -1,6 +1,6 @@
 import React from 'react'
 
-import book from './data.json'
+import book from '../data.json'
 import Card from './card'
 
 

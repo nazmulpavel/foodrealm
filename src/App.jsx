@@ -17,7 +17,7 @@
 
 import { Outlet } from "react-router-dom";
 import "./App.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Pages/Navbar";
 import Footer from "./components/shared/Footer";
 
 

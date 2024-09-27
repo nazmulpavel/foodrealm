@@ -8,11 +8,12 @@ import {
   RouterProvider,
   createBrowserRouter
 } from 'react-router-dom'
-import Homepage from './pages/Homepage.jsx'
-import About from './components/About.jsx'
-import Blog from './components/Blog.jsx'
-import FAQ from './FAQ.jsx'
-import BookDetails from './components/BookDetails.jsx'
+import Homepage from './components/Pages/Homepage.jsx'
+import About from './components/Pages/About.jsx'
+import Blog from './components/Pages/Blog.jsx'
+import FAQ from './components/Pages/FAQ.jsx'
+import BookDetails from './components/Pages/BookDetails.jsx'
+import ErrorPage from './components/Pages/ErrorPage.jsx'
 
 
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
           {
             path: '/bookdetails/:bookId',
             element: <BookDetails/>,
+        },
+          {
+            path:  '/*',
+            element: <ErrorPage/>,
         },
 
       ]
